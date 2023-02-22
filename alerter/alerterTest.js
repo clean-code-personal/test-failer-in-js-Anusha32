@@ -1,5 +1,4 @@
 let alert = require('./alerter');
-let alertFailureCount = require('./alerter');
 
 alert.alertInCelcius(400.5);
 alert.alertInCelcius(303.6);
