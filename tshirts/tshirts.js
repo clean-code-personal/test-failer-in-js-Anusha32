@@ -9,3 +9,4 @@ function size(cms) {
         return 'L';
     }
 }
+module.exports = size;
