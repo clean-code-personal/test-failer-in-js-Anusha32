@@ -3,12 +3,6 @@ const { it } = require('mocha');
 
 let s = require('../tshirts/tshirts') ;
 
-
-// console.assert(expect(s.size(37)).equals('S'));
-// expect(s.size(40)).equals('M');
-// expect(s.size(43)).equals('L');
-// console.assert(expect(s.size(38)).equals('S')); 
-
 //Test cases using Mocha
 describe('User tshirt size test', function(){
   it('should return "S" when the value is 37', function(){
