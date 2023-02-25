@@ -1,10 +1,3 @@
-// let alert = require('../alerter/alerter');
-// let 
-// alert.alertInCelcius(400.5);
-// alert.alertInCelcius(303.6);
-// console.log(`${alertFailureCount} alerts failed.`);
-// //console.assert(alertFailureCount);
-
 let alertFailureCount = 0;
 const { assert } = require('chai');
 let alertInCelcius = require('../alerter/alerter');
