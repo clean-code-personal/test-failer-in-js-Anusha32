@@ -13,5 +13,5 @@ jobs:
         with: 
           node-version: '14'
 
-      - name: Test Pass
-        run: npm run test
+      - name: mocha tests
+        run: npm test
