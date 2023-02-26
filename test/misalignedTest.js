@@ -1,7 +1,8 @@
 const { expect, assert } = require('chai');
 const { it } = require('mocha');
 let res = require('../misaligned/misaligned');
-// let id = require('../misaligned/misaligned');
+var mocha = require('mocha');
+var describe= mocha.describe
 
 describe('Color Map Print', function(){
     it('should return 25', function(){
