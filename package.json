@@ -5,6 +5,7 @@
   "main": "alerter.js",
   "type": "commonjs",
   "scripts": {
+    "start": "echo \"Run the individual js files\" && exit 1",
     "test": "mocha"
   },
   "repository": {
