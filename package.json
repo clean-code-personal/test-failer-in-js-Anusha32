@@ -6,7 +6,7 @@
   "type": "commonjs",
   "scripts": {
     "start": "echo \"Run the individual js files\" && exit 1",
-    "test": "mocha"
+    "test": "node ./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",

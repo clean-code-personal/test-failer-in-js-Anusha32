@@ -1,5 +1,5 @@
 let alertFailureCount = 0;
-const { assert } = require('chai');
+const { assert } = require('chai').expect;
 const alertInCelcius = require('../alerter/alerter');
 
 describe('Tests for alterer', function(){
