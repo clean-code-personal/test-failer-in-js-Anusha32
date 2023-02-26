@@ -15,3 +15,6 @@ jobs:
 
       - name: tshirts fail
         run: bash .github/workflows/expectfail.sh "node test/tshirtTest.js"
+
+      - name: alerter fail
+        run: bash .github/workflows/expectfail.sh "node test/alerterTest.js"
