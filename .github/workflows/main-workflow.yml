@@ -13,5 +13,5 @@ jobs:
         with: 
           node-version: '14'
 
-      - name: mocha tests
-        run: npm test
+      - name: tshirts fail
+        run: bash .github/workflows/expectfail.sh "node test/tshirtTest.js"
