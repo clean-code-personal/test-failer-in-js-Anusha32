@@ -12,6 +12,6 @@ describe('Color Map Print',function(){
         expect(result).equals(25);
     });
     it('should return the first index as 1',function(){
-        expect(print.index(0,0)).equals(1);
+        expect(print.index(0,0)).equals('1 ');
     });
 });
