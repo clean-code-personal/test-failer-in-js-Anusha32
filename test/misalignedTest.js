@@ -1,18 +1,17 @@
-const { expect, assert } = require('chai');
-const { it } = require('mocha');
-let res = require('../misaligned/misaligned');
-var mocha = require('mocha');
-var describe= mocha.describe
+// const { it } = require('mocha');
+// let res = require('../misaligned/misaligned');
+// var mocha = require('mocha');
+// var describe= mocha.describe
 
-describe('Color Map Print', function(){
-    it('should return 25', function(){
-        let result = res.print_color_map();
+const { expect } = require("chai");
+const print = require("../misaligned/misaligned");
+
+let result = print.print_color_map();
+describe('Color Map Print',function(){
+    it('should return size as 25',function(){
         expect(result).equals(25);
     });
-    it('should return the first item index as 1', function(){
-        let value = res.index();
-        expect(value[0]).equals("1");
-    })
-})
-
-
+    it('should return the first index as 1',function(){
+        expect(print.index(0,0)).equals(1);
+    });
+});
